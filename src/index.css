@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-main-bg: #09090b;
+  --color-main-surface: #18181b;
+  --color-main-surface2: #09090b;
+  --color-main-border: #27272a;
+  --color-main-accent: #10b981;
+  --color-main-accent2: #06b6d4;
+  --color-main-warn: #f59e0b;
+  --color-main-danger: #ef4444;
+  --color-main-text: #f4f4f5;
+  --color-main-muted: #71717a;
+}
+
+body {
+  background-color: var(--color-main-bg);
+  color: var(--color-main-text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+/* Background Grid Pattern - high density emerald grid style */
+.grid-overlay {
+  background-image: linear-gradient(rgba(16, 185, 129, 0.015) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(16, 185, 129, 0.015) 1px, transparent 1px);
+  background-size: 32px 32px;
+}

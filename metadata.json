@@ -1,0 +1,8 @@
+{
+  "name": "Resume ATS Scorer",
+  "description": "An AI-powered ATS resume scanner and scorer to find keyword gaps, calculate match scores, and provide optimization recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
